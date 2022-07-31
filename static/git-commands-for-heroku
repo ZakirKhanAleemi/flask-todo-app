@@ -1,6 +1,7 @@
 git add .
 git commit -m "todo app"
 pip freeze > requirements.txt
+pip install gunicorn
 heroku login
 heroku create todo-flask
 git push heroku master
