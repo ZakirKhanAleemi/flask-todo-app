@@ -1,7 +1,7 @@
 git add .
 git commit -m "todo app"
-git push heroku master
 pip freeze > requirements.txt
 heroku login
 heroku create todo-flask
+git push heroku master
 git remote -v
